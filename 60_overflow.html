@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        display: flex;
+      }
+      div {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        margin: 30px;
+        border-color: gray;
+        border-style: dotted;
+      }
+      .visible {
+        overflow: visible;
+      }
+      .hidden {
+        overflow: hidden;
+      }
+      .scroll {
+        overflow-x: hidden;
+        /* overflow-y: hidden; */
+      }
+      .auto {
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="visible">
+      <h3>visible</h3>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. A rerum dolorum
+      voluptate repudiandae maiores harum expedita, non atque iure illo officiis
+      deleniti saepe repellat. Necessitatibus ad nostrum itaque dignissimos!
+      Cupiditate.
+    </div>
+    <div class="hidden">
+      <h3>hidden</h3>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. A rerum dolorum
+      voluptate repudiandae maiores harum expedita, non atque iure illo officiis
+      deleniti saepe repellat. Necessitatibus ad nostrum itaque dignissimos!
+      Cupiditate.
+    </div>
+    <div class="scroll">
+      <h3>scroll</h3>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. A rerum dolorum
+      voluptate repudiandae maiores harum expedita, non atque iure illo officiis
+      deleniti saepe repellat. Necessitatibus ad nostrum itaque dignissimos!
+      Cupiditate.
+    </div>
+    <div class="auto">
+      <h3>auto</h3>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. A rerum dolorum
+      voluptate repudiandae maiores harum expedita, non atque iure illo officiis
+      deleniti saepe repellat. Necessitatibus ad nostrum itaque dignissimos!
+      Cupiditate.
+    </div>
+  </body>
+</html>
